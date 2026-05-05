@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omon | The Sovereign Monad System</title>
+    <style>
+        :root { --bg: #0d0d0d; --text: #f0f0f0; --accent: #3498db; --card-bg: #1a1a1a; }
+        body { background: var(--bg); color: var(--text); font-family: "Inter", -apple-system, "PingFang SC", sans-serif; margin: 0; line-height: 1.7; }
+        .container { max-width: 900px; margin: 0 auto; padding: 80px 24px; position: relative; }
+        
+        /* 导航与链接 */
+        .nav-links { position: absolute; top: 40px; right: 24px; font-size: 0.9rem; }
+        .nav-links a { margin-left: 20px; opacity: 0.7; transition: 0.3s; text-decoration: none; color: var(--text); }
+        .nav-links a:hover { opacity: 1; color: var(--accent); }
+
+        header { text-align: center; margin-bottom: 100px; margin-top: 40px; }
+        h1 { font-size: 3.5rem; letter-spacing: -2px; margin: 0; font-weight: 800; background: linear-gradient(to bottom, #fff, #888); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .tagline { opacity: 0.5; font-size: 1.2rem; margin-top: 15px; letter-spacing: 2px; }
+        
+        .quote { border-left: 3px solid var(--accent); padding: 20px 30px; margin: 60px 0; font-style: italic; font-size: 1.1rem; background: rgba(52, 152, 219, 0.05); }
+        
+        /* 四维协议网格 */
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 60px; }
+        .card { background: var(--card-bg); padding: 30px; border-radius: 12px; border: 1px solid #222; transition: 0.3s; }
+        .card:hover { border-color: var(--accent); transform: translateY(-5px); }
+        .card h3 { color: var(--accent); margin-top: 0; font-size: 1.3rem; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .card p { font-size: 0.95rem; opacity: 0.8; margin-bottom: 0; }
+        .card strong { color: #fff; display: block; margin-bottom: 5px; }
+        
+        footer { margin-top: 120px; text-align: center; font-size: 0.85rem; opacity: 0.4; border-top: 1px solid #222; padding-top: 60px; }
+        
+        @media (max-width: 700px) { 
+            .grid { grid-template-columns: 1fr; }
+            .nav-links { position: static; text-align: center; margin-bottom: 40px; }
+            h1 { font-size: 2.5rem; }
+        }
+        
+        .footer-links a { color: var(--accent); text-decoration: none; margin: 0 10px; }
+        .footer-links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-links">
+            <a href=" ">GitHub 仓库</a >
+            <a href="https://github.com/6402bai-web/Omon/blob/main/Omon_Whitepaper_v1.pdf">白皮书全文</a >
+        </nav>
+
+        <header>
+            <h1>Omon</h1>
+            <p class="tagline">全维度个体主权操作系统</p >
+        </header>
+
+        <div class="quote">
+            “在中心化的荒原上，建立每一个人的主权单子。我们不租借数字生命，我们拥有它。”
+        </div>
+
+        <section class="grid">
+            <div class="card">
+                <h3>存在维 (Monad ID)</h3>
+                <strong>身体即钥匙，存在即证明</strong>
+                <p>身份不再是由平台发放的“账号”，而是不可被封禁的数字生命根节点。只要你还在，你的数字生命就在。</p >
+            </div>
+            <div class="card">
+                <h3>行为维 (Protocol Trust)</h3>
+                <strong>让承诺拥有代码的刚性</strong>
+                <p>将人际交互转化为自动执行的底层协议。用技术铲除“赖账”的可能性，建立物理级精准的信任网络。</p >
+            </div>
+            <div class="card">
+                <h3>时间维 (Eternal Memory)</h3>
+                <strong>拒绝被抹除，拒绝被遗忘</strong>
+                <p>数据碎化加密并编织在全球分布式节点中。从易失的租借物转变为永恒的个人遗产，实现数据永生。</p >
+            </div>
+            <div class="card">
+                <h3>正义维 (Mercy Layer)</h3>
+                <strong>代码虽冷，但人有温度</strong>
+                <p>当绝对规则遭遇极端现实，系统激活基于集体良知的社会化仲裁，为冰冷的代码注入容错率与温度。</p >
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-links">
+                <a href="https://github.com/6402bai-web/Omon">Source Code</a > | 
+                <a href="https://github.com/6402bai-web/Omon/issues">Community Discussion</a >
+            </div>
+            <p style="margin-top: 20px;">Omon Project © 2026 / Empowering Every Monad.</p >
+        </footer>
+    </div>
+</body>
+</html>
